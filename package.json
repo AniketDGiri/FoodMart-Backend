@@ -1,0 +1,39 @@
+{
+  "name": "foodmart-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for the implementation for the foodmart app.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniketDGiri/FoodMart-Backend.git"
+  },
+  "keywords": [
+    "backend",
+    "foodmart",
+    "api",
+    "restfull",
+    "services"
+  ],
+  "author": "Aniket D. Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniketDGiri/FoodMart-Backend/issues"
+  },
+  "homepage": "https://github.com/AniketDGiri/FoodMart-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "semantic-release": "^21.0.9"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  }
+}
